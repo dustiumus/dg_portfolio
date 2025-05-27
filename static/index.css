@@ -1,13 +1,59 @@
 
-
-
-
+body {
+background-color: royalblue;
+}
 
 h1 {
-    color: royalblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-family: 'Orbitron', sans-serif;
     display: flex;
     justify-content: center;
     padding-top: 5%;
-
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
 }
+
+.aboutMeButton { 
+    font-family: 'Orbitron', sans-serif;
+      padding: 36px 60px;
+      background-color: royalblue;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.aboutMeButton:hover {
+    background-color: white;
+    color: royalblue;
+    border: 1px royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 3px 3px 6px white;
+    display: flex;
+    justify-content: center;
+}
+
+  p {
+    font-family: 'Orbitron', sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-shadow: 0.5px 0.5px 1px white;
+}
+
+
+
