@@ -1,6 +1,7 @@
 
 body {
-background-color: royalblue;
+    background-color: royalblue;
+    
 }
 
 h1 {
@@ -14,46 +15,90 @@ h1 {
 
 .aboutMeButton { 
     font-family: 'Orbitron', sans-serif;
-      padding: 36px 60px;
-      background-color: royalblue;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    padding: 36px 60px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0;     
 }
 
 .aboutMeButton:hover {
     background-color: white;
     color: royalblue;
-    border: 1px royalblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 1px royalblue; 
+}
+
+#aboutMe {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s ease;
+}
+
+#aboutMe.show {
+    opacity: 1;
+    visibility: visible;
 }
 
 h2 {
     color: black;
     font-family: 'Orbitron', sans-serif;
+    font-size: x-large;
     text-shadow: 3px 3px 6px white;
     display: flex;
     justify-content: center;
 }
 
-  p {
+p {
     font-family: 'Orbitron', sans-serif;
-    font-size: large;
+    font-size: x-large;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-left: 5%;
     padding-right: 5%;
     text-shadow: 0.5px 0.5px 1px white;
 }
 
+
+.projectsButton {
+    font-family: 'Orbitron', sans-serif;
+    padding: 36px 60px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0;
+}
+
+.projectsButton:hover {
+    background-color: white;
+    color: royalblue;
+    border: 1px royalblue;
+}
+
+.resumeButton {
+font-family: 'Orbitron', sans-serif;
+    padding: 36px 60px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0;
+}
+
+.resumeButton:hover {
+    background-color: white;
+    color: royalblue;
+    border: 1px royalblue;
+}
 
 
