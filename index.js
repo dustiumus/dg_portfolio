@@ -1,12 +1,15 @@
 
 function toggleMe() {
-    const section = document.getElementById("aboutMe");
-    section.classList.toggle("show")
-
-
-    // if (section.style.display === "none" || section.style.display === "" ) {
-    //     section.style.display = "block";    
-    // } else {
-    //     section.style.display = "none"
+    const about = document.getElementById("aboutMe");
+    if (about.style.display === "none" || !about.style.display) {
+        about.style.display = "block";    
+    } else {
+        about.style.display = "none"
     }
+}
+
+function toggleForm() {
+    const form = document.getElementById("contactForm");
+    form.style.display = (form.style.display === "none") ? "block" : "none";
+}
 

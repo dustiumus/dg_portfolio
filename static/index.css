@@ -1,26 +1,29 @@
-
-body {
-    background-color: royalblue;
-    
-}
-
 h1 {
     color: whitesmoke;
     font-family: 'Orbitron', sans-serif;
-    display: flex;
-    justify-content: center;
+    font-size: xx-large;
     padding-top: 5%;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
 }
 
+body {
+    background-image: url("4k_space_background.jpg"); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+    gap: 50px;
+     
+}
+
 .aboutMeButton { 
     font-family: 'Orbitron', sans-serif;
-    padding: 36px 60px;
-    background-color: royalblue;
+    padding: 48px 72px;
+    background-color: blue;
     color: white;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: xx-large;
     cursor: pointer;
     transition: all 0.3s ease;
     margin: 0;     
@@ -28,49 +31,47 @@ h1 {
 
 .aboutMeButton:hover {
     background-color: white;
-    color: royalblue;
-    border: 1px royalblue; 
+    color: blue;
+    border: 1px blue; 
 }
 
 #aboutMe {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.25s ease;
+    display: none;
 }
 
-#aboutMe.show {
-    opacity: 1;
-    visibility: visible;
-}
 
 h2 {
-    color: black;
+    color: whitesmoke;
     font-family: 'Orbitron', sans-serif;
-    font-size: x-large;
-    text-shadow: 3px 3px 6px white;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+    text-shadow: 1px 1px 3px blue;
+    display: flex;
 }
 
 p {
     font-family: 'Orbitron', sans-serif;
-    font-size: x-large;
+    color: whitesmoke;
+    font-size: xx-large;
     display: flex;
-    justify-content: flex-start;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-shadow: 0.5px 0.5px 1px white;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-shadow: 0.5px 0.5px 1px blue;
 }
 
 
 .projectsButton {
     font-family: 'Orbitron', sans-serif;
-    padding: 36px 60px;
-    background-color: royalblue;
+    padding: 48px 72px;
+    background-color: blue;
     color: white;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: xx-large;
     cursor: pointer;
     transition: all 0.3s ease;
     margin: 0;
@@ -78,18 +79,18 @@ p {
 
 .projectsButton:hover {
     background-color: white;
-    color: royalblue;
-    border: 1px royalblue;
+    color: blue;
+    border: 1px blue;
 }
 
 .resumeButton {
-font-family: 'Orbitron', sans-serif;
-    padding: 36px 60px;
-    background-color: royalblue;
+    font-family: 'Orbitron', sans-serif;
+    padding: 48px 72px;
+    background-color: blue;
     color: white;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: xx-large;
     cursor: pointer;
     transition: all 0.3s ease;
     margin: 0;
@@ -97,8 +98,77 @@ font-family: 'Orbitron', sans-serif;
 
 .resumeButton:hover {
     background-color: white;
-    color: royalblue;
-    border: 1px royalblue;
+    color: blue;
+    border: 1px blue;
 }
 
+.contactButton {
+    font-family: 'Orbitron', sans-serif;
+    padding: 48px 72px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: xx-large;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0;
+}
+
+.contactButton:hover {
+    background-color: white;
+    color: blue;
+    border: 1px blue;
+}
+
+#contactForm {
+    display: none;
+}
+
+.contactForm {
+    font-family: 'Orbitron', sans-serif;
+    background-color: whitesmoke;
+    padding: 5rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.contactForm label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.contactForm input, textarea {
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.contactForm button {
+    font-family: 'Orbitron', sans-serif;
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+.contactForm button:hover {
+    background-color: whitesmoke;
+    color: blue;
+    border: 1px blue;
+}
 

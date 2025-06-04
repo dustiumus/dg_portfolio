@@ -10,10 +10,9 @@
     <link rel="stylesheet" href="static/index.css">
     <title> Gentz Software </title>
     <h1> Welcome to My Portfolio </h1>
-    </head>
+</head>
 <body>
         <button class="aboutMeButton" onclick="toggleMe()">About Me</button>
-        <button class="contactButton">Contact Me</button>
         <section>
             <div id="aboutMe"> 
                 <h2>Hi, I'm Dustin</h2>
@@ -31,7 +30,15 @@
         <a href="/static/Dustin_Gentry_Resume_5_25.pdf">
             <button class="resumeButton">Resume</button>
         </a>
-
+        <section>
+            <button class="contactButton" onclick="toggleForm()">Contact Me</button>
+            <form class="contactForm" id="contactForm" action="https://formspree.io/f/xnnvnqrr" method="POST">
+                <input type="text" name="name" class="name" required placeholder="Name">
+                <input type="email" name="email" class="email" required placeholder="Email">
+                <textarea name="personalNote" class="textArea" required placeholder="Personal Note"></textarea>
+                <button type="submit" class="sendButton">Send</button>
+            </form>
+        </section>
 
 
     <script src="index.js"></script>
