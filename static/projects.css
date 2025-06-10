@@ -1,4 +1,130 @@
 body {
     background-image: url(/static/blue_mountains.jpg);
     image-resolution: 3840px 2160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    gap: 60px;
 }
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 a {
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+    color: black;
+}
+
+p {
+    font-family: 'Orbitron', sans-serif;
+    font-size: large;
+}
+
+.project1Button {
+    font-family: 'Orbitron', sans-serif;
+    padding: 36px 60px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: xx-large;
+    cursor: pointer;
+    margin: 0;
+}
+
+.project1Button:hover {
+    background-color: white;
+    color: blue;
+    border: 1px blue;
+}
+
+#project1 {
+    display: none;
+}
+
+.project2Button {
+    font-family: 'Orbitron', sans-serif;
+    padding: 36px 60px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: xx-large;
+    cursor: pointer;
+    margin: 0;
+}
+
+.project2Button:hover {
+    background-color: white;
+    color: blue;
+    border: 1px blue;
+}
+
+#project2{
+    display: none;
+}
+
+.project3Button {
+    font-family: 'Orbitron', sans-serif;
+    padding: 36px 60px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: xx-large;
+    cursor: pointer;
+    margin: 0;
+}
+
+.project3Button:hover {
+    background-color: white;
+    color: blue;
+    border: 1px blue;
+}
+
+#project3 {
+    display: none;
+}
+
+.plansButton {
+    font-family: 'Orbitron', sans-serif;
+    padding: 36px 60px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: xx-large;
+    cursor: pointer;
+    margin: 0;
+}
+
+.plansButton:hover {
+    background-color: white;
+    color: blue;
+    border: 1px blue;
+}
+
+#plans {
+    display: none;
+    color: whitesmoke;
+}
+
+
+
+
+
