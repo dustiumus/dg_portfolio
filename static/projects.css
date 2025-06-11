@@ -106,6 +106,10 @@ p {
     color: whitesmoke;
 }
 
+#project3 a {
+    color: whitesmoke;
+}
+
 .plansButton {
     font-family: 'Orbitron', sans-serif;
     padding: 36px 60px;
