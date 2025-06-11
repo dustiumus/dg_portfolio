@@ -1,5 +1,5 @@
 body {
-    background-image: url("blue_mountains.jpg");
+    background-image: url("static/blue_mountains.jpg");
     image-resolution: 3840px 2160px;
     display: flex;
     flex-direction: column;
